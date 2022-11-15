@@ -12,6 +12,7 @@ import TabEmp from './components/admin_dashboard/emptable';
 import TabUser from './components/admin_dashboard/usertable';
 import Sports_info from './components/admin_dashboard/sports_info';
 import Players_list  from './components/players_list/players_list';
+import C_player_records from './components/coach_login_access/c_player_records';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/TabUser' element={<TabUser/>}/>
           <Route path='/sports_info' element={<Sports_info/>}/>
           <Route path='/sports_info/players_list' element={<Players_list/>}/>
+          <Route path='sports_info/c_player_records' element={<C_player_records/>}/>
         </Routes>
       </Router>
     </div>
